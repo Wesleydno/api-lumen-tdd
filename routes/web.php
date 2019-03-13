@@ -17,5 +17,6 @@ $router->get('/', function () use ($router) {
 
 $router->post('/api/user','UserController@store');
 $router->get('/api/user/{id}','UserController@show');
+$router->put('/api/user/{id}','UserController@update');
 
 

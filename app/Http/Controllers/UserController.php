@@ -31,12 +31,27 @@ class UserController extends Controller
         return $user;
     }
 
+
+    public function update(Request $request,$id){
+        $this->validate($request, [
+        'name' => 'required|max:255',
+        'email' => 'required|email|max:255|unique:users',
+        'password' => 'required|min:6|max:255'
+        ]);
+    
+        $user = User::find($id);
+
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+        $user->password = $request->input('password');
+
+        $user->update();
+        return $user;     
+        
+    }
+
     public function show($id){
         
         return User::find($id);
-    }
-
-    public function update($id){
-        
     }
 }
