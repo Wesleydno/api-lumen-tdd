@@ -1,18 +1,18 @@
-Api Rest Lumen com TDD
+# Api Rest Lumen com TDD
 
-Projeto desenvolvido para servir com base em meus projetos pessoais.Também, estou começando a escrever testes usando o PHPUnit. Utilizei o Postman para auxiliar nos testes.
+Projeto desenvolvido para servir com base em meus projetos pessoais.Também, escrevi alguns testes usando o PHPUnit. Utilizei o Postman para auxiliar nos testes.
 
-# Como instalar ?
+### Como instalar ?
 
-1 - Clone o repositório git clone https://github.com/Wesleydno/api-lumen-tdd.git
-2 - Rode o comando "composer install" para instalar os pacotes necessários
-3 - Rode o comando "php artisan key:generate" gerar uma chave para sua aplicação. 
-4 - Informe as configurações do banco de dados no arquivo .env
-5 - Rode o comando "./artisan migrate" para criar as tabelas no banco
+* Clone o repositório git clone https://github.com/Wesleydno/api-lumen-tdd.git
+* Rode o comando "composer install" para instalar os pacotes necessários
+* Rode o comando "php artisan key:generate" gerar uma chave para sua aplicação. 
+* Informe as configurações do banco de dados no arquivo .env
+* Rode o comando "./artisan migrate" para criar as tabelas no banco
 
-# Como rodar os testes ?
-1 - Crie um usuário na base de dados
-2 - Rode o comando "vendor/phpunit/phpunit/phpunit"
+### Como rodar os testes ?
+* Crie um usuário na base de dados
+* Rode o comando "vendor/phpunit/phpunit/phpunit"
 
 
 # Lumen PHP Framework
@@ -28,10 +28,6 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 ## Official Documentation
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
