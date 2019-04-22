@@ -6,7 +6,7 @@ use Laravel\Lumen\Testing\DatabaseTransactions;
 class UserTest extends TestCase
 {
   
-use DatabaseTransactions;    //Caso Desabilitada os dados serão persistidos no banco de dados
+use DatabaseTransactions;  //Caso Desabilitada os dados serão persistidos no banco de dados
 
     public $dados = [];
     public $api_token = [];
@@ -130,8 +130,6 @@ use DatabaseTransactions;    //Caso Desabilitada os dados serão persistidos no 
         ]);
 
     }
-
-
 
     //Deleta usuário pasando id e token
     public function testDeleteUser()
