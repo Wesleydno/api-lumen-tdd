@@ -1,3 +1,20 @@
+Api Rest Lumen com TDD
+
+Projeto desenvolvido para servir com base em meus projetos pessoais.Também, estou começando a escrever testes usando o PHPUnit. Utilizei o Postman para auxiliar nos testes.
+
+# Como instalar ?
+
+1 - Clone o repositório git clone https://github.com/Wesleydno/api-lumen-tdd.git
+2 - Rode o comando "composer install" para instalar os pacotes necessários
+3 - Rode o comando "php artisan key:generate" gerar uma chave para sua aplicação. 
+4 - Informe as configurações do banco de dados no arquivo .env
+5 - Rode o comando "./artisan migrate" para criar as tabelas no banco
+
+# Como rodar os testes ?
+1 - Crie um usuário na base de dados
+2 - Rode o comando "vendor/phpunit/phpunit/phpunit"
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
